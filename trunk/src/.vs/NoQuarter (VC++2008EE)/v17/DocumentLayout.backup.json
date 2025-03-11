@@ -50,8 +50,7 @@
               "RelativeToolTip": "game\\g_combat.c",
               "ViewState": "AgIAAAUCAAAAAAAAAAAiwCUCAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T21:05:00.729Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T21:05:00.729Z"
             },
             {
               "$type": "Document",
@@ -61,7 +60,7 @@
               "RelativeDocumentMoniker": "game\\g_main.c",
               "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
               "RelativeToolTip": "game\\g_main.c",
-              "ViewState": "AgIAAJ4ZAAAAAAAAAAArwKgZAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAANkMAAAAAAAAAAAjwPIMAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-10T21:02:47.151Z",
               "EditorCaption": ""
@@ -76,8 +75,7 @@
               "RelativeToolTip": "game\\g_client.c",
               "ViewState": "AgIAALgMAAAAAAAAAAAAALgMAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T21:02:45.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T21:02:45.813Z"
             },
             {
               "$type": "Document",
@@ -89,8 +87,7 @@
               "RelativeToolTip": "game\\g_active.c",
               "ViewState": "AgIAAJoFAAAAAAAAAAASwMYFAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:59:19.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:59:19.831Z"
             },
             {
               "$type": "Document",
@@ -102,8 +99,7 @@
               "RelativeToolTip": "game\\bg_public.h",
               "ViewState": "AgIAAIIJAAAAAAAAAAAAAJwJAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-10T20:56:49.617Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:56:49.617Z"
             },
             {
               "$type": "Document",
@@ -115,8 +111,7 @@
               "RelativeToolTip": "game\\bg_pmove.c",
               "ViewState": "AgIAACESAAAAAAAAAAAkwDQSAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:53:15.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:53:15.922Z"
             },
             {
               "$type": "Document",
@@ -128,8 +123,7 @@
               "RelativeToolTip": "game\\bg_weapons.c",
               "ViewState": "AgIAADAAAAAAAAAAAAASwEcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:53:05.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T20:53:05.742Z"
             }
           ]
         }

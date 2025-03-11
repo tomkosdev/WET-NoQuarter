@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_pmove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_newDraw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,16 +23,48 @@
       "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_draw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_draw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_etbot_interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_etbot_interface.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_mover.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_mover.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_multiview.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_multiview.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_misc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_weapons.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_weapons.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_pmove.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_effects.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_effects.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_weapons.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_weapons.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_stats.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_stats.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,87 +79,211 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "g_combat.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
-              "RelativeDocumentMoniker": "game\\g_combat.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
-              "RelativeToolTip": "game\\g_combat.c",
-              "ViewState": "AgIAAAUCAAAAAAAAAAAiwCUCAAARAAAAAAAAAA==",
+              "Title": "cg_newDraw.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c",
+              "RelativeDocumentMoniker": "cgame\\cg_newDraw.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c",
+              "RelativeToolTip": "cgame\\cg_newDraw.c",
+              "ViewState": "AgIAAFoBAAAAAAAAAAAEwGUBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T21:05:00.729Z"
+              "WhenOpened": "2025-03-11T18:39:26.984Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "g_main.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
-              "RelativeDocumentMoniker": "game\\g_main.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
-              "RelativeToolTip": "game\\g_main.c",
-              "ViewState": "AgIAANkMAAAAAAAAAAAjwPIMAAAMAAAAAAAAAA==",
+              "Title": "cg_main.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_main.c",
+              "RelativeDocumentMoniker": "cgame\\cg_main.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_main.c",
+              "RelativeToolTip": "cgame\\cg_main.c",
+              "ViewState": "AgIAAKsFAAAAAAAAAAAAAL0FAACaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T21:02:47.151Z",
+              "WhenOpened": "2025-03-11T19:07:47.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cg_local.h",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_local.h",
+              "RelativeDocumentMoniker": "cgame\\cg_local.h",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_local.h",
+              "RelativeToolTip": "cgame\\cg_local.h",
+              "ViewState": "AgIAAFEFAAAAAAAAAAAEwGUFAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T18:52:24.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "g_multiview.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_multiview.c",
+              "RelativeDocumentMoniker": "game\\g_multiview.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_multiview.c",
+              "RelativeToolTip": "game\\g_multiview.c",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAAAEUBAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T18:47:15.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "g_mover.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_mover.c",
+              "RelativeDocumentMoniker": "game\\g_mover.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_mover.c",
+              "RelativeToolTip": "game\\g_mover.c",
+              "ViewState": "AgIAABYAAAAAAAAAAAAEwCIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T18:47:00.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "g_etbot_interface.cpp",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_etbot_interface.cpp",
+              "RelativeDocumentMoniker": "game\\g_etbot_interface.cpp",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_etbot_interface.cpp",
+              "RelativeToolTip": "game\\g_etbot_interface.cpp",
+              "ViewState": "AgIAAD0DAAAAAAAAAAAEwFIDAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T18:46:30.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "g_client.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_client.c",
-              "RelativeDocumentMoniker": "game\\g_client.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_client.c",
-              "RelativeToolTip": "game\\g_client.c",
-              "ViewState": "AgIAALgMAAAAAAAAAAAAALgMAAAvAAAAAAAAAA==",
+              "Title": "g_main.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
+              "RelativeDocumentMoniker": "game\\g_main.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
+              "RelativeToolTip": "game\\g_main.c",
+              "ViewState": "AgIAAH8EAAAAAAAAAAAEwJMEAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T21:02:45.813Z"
+              "WhenOpened": "2025-03-11T17:24:35.045Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "g_active.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
-              "RelativeDocumentMoniker": "game\\g_active.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
-              "RelativeToolTip": "game\\g_active.c",
-              "ViewState": "AgIAAJoFAAAAAAAAAAASwMYFAAAnAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "cg_weapons.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_weapons.c",
+              "RelativeDocumentMoniker": "cgame\\cg_weapons.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_weapons.c",
+              "RelativeToolTip": "cgame\\cg_weapons.c",
+              "ViewState": "AgIAAKMSAAAAAAAAAAAAAKMSAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:59:19.831Z"
+              "WhenOpened": "2025-03-11T17:24:31.848Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "bg_public.h",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
-              "RelativeDocumentMoniker": "game\\bg_public.h",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
-              "RelativeToolTip": "game\\bg_public.h",
-              "ViewState": "AgIAAIIJAAAAAAAAAAAAAJwJAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-10T20:56:49.617Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "bg_pmove.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c",
-              "RelativeDocumentMoniker": "game\\bg_pmove.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c",
-              "RelativeToolTip": "game\\bg_pmove.c",
-              "ViewState": "AgIAACESAAAAAAAAAAAkwDQSAAAjAAAAAAAAAA==",
+              "DocumentIndex": 13,
+              "Title": "cg_effects.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_effects.c",
+              "RelativeDocumentMoniker": "cgame\\cg_effects.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_effects.c",
+              "RelativeToolTip": "cgame\\cg_effects.c",
+              "ViewState": "AgIAAI4BAAAAAAAAAAAewJkBAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:53:15.922Z"
+              "WhenOpened": "2025-03-11T17:24:26.772Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "cg_draw.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_draw.c",
+              "RelativeDocumentMoniker": "cgame\\cg_draw.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_draw.c",
+              "RelativeToolTip": "cgame\\cg_draw.c",
+              "ViewState": "AgIAAKYJAAAAAAAAAAAewMkJAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T17:24:25.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "bg_weapons.c",
               "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_weapons.c",
               "RelativeDocumentMoniker": "game\\bg_weapons.c",
               "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_weapons.c",
               "RelativeToolTip": "game\\bg_weapons.c",
-              "ViewState": "AgIAADAAAAAAAAAAAAASwEcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABYEAAAAAAAAAAAewCEEAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-10T20:53:05.742Z"
+              "WhenOpened": "2025-03-11T17:24:22.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "bg_pmove.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c",
+              "RelativeDocumentMoniker": "game\\bg_pmove.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_pmove.c",
+              "RelativeToolTip": "game\\bg_pmove.c",
+              "ViewState": "AgIAABMOAAAAAAAAAAAewB4OAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T17:24:03.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "bg_misc.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c",
+              "RelativeDocumentMoniker": "game\\bg_misc.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c",
+              "RelativeToolTip": "game\\bg_misc.c",
+              "ViewState": "AgIAAPkSAAAAAAAAAAAewAQTAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T17:23:45.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "bg_stats.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_stats.c",
+              "RelativeDocumentMoniker": "game\\bg_stats.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_stats.c",
+              "RelativeToolTip": "game\\bg_stats.c",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAewDsAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-11T17:23:40.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "g_combat.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
+              "RelativeDocumentMoniker": "game\\g_combat.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
+              "RelativeToolTip": "game\\g_combat.c",
+              "ViewState": "AgIAAB0CAAAAAAAAAAAAAB4CAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-10T21:05:00.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "bg_public.h",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
+              "RelativeDocumentMoniker": "game\\bg_public.h",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
+              "RelativeToolTip": "game\\bg_public.h",
+              "ViewState": "AgIAAGEGAAAAAAAAAAAEwHUGAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-10T20:56:49.617Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2484,6 +2484,13 @@ void PM_TraceAll( trace_t *trace, vec3_t start, vec3_t end );
 #define WARMODE_SMOKE			0x0400	// 1024		- enable smoke grenades
 #define WARMODE_BINOCS			0x0800	// 2048		- enable binoculars
 #define WARMODE_PLIERS			0x1000	// 4096		- enable pliers + dynamite
+
+
+
+
+
+
+
 #define WARMODE_NUM_MODES		13
 
 // core: bitflags for g_unlockWeapons (per class)..
@@ -3251,4 +3258,6 @@ weapon_restriction_t weapon_restrictions[WP_NUM_WEAPONS];
 #define WPN_DEFAULT_MAX_LANDMINES	20
 
 
-#endif
+
+#endif // __BG_PUBLIC_H__
+

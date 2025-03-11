@@ -355,8 +355,8 @@ void CG_DrawCursorhint(rectDef_t *rect) {
 			icon = cgs.media.doorRotateHintShader;
 			break;
 		case HINT_DOOR_ROTATING_LOCKED:
-			// icon = cgs.media.doorRotateLockHintShader;
-			icon = cgs.media.doorRotateHintShader;
+			icon = cgs.media.doorRotateLockHintShader;
+			//icon = cgs.media.doorRotateHintShader;
 			break;
 		case HINT_DOOR_LOCKED:
 			icon = cgs.media.doorLockHintShader;

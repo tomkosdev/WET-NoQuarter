@@ -539,7 +539,8 @@ void player_die( gentity_t *self, gentity_t *inflictor, gentity_t *attacker, int
 
 		G_LogTeamKill(attacker,	weap);
 
-		// launch teamkillers ...
+		// 
+		// teamkillers ...
 		if ( jp_insanity.integer & JP_INSANITY_LAUNCH_TK ) {
 			switch (meansOfDeath) {
 			case MOD_FALLING:

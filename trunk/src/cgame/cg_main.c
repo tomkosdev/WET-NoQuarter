@@ -1467,7 +1467,7 @@ static void CG_RegisterGraphics( void ) {
 
 	// Arnout: these were never used in default wolf ..
 	cgs.media.doorLockHintShader	= trap_R_RegisterShader( "gfx/2d/lockedhint" );
-	// cgs.media.doorRotateLockHintShader	= trap_R_RegisterShader( "gfx/2d/lockedhint" ); // IRATA: same as doorLockHintShader
+	cgs.media.doorRotateLockHintShader	= trap_R_RegisterShader( "gfx/2d/lockedhint" ); // IRATA: same as doorLockHintShader // TomekKromek: nah, not the same
 	cgs.media.mg42HintShader		= trap_R_RegisterShader( "gfx/2d/mg42Hint" );
 	cgs.media.breakableHintShader	= trap_R_RegisterShader( "gfx/2d/breakableHint" );
 	// cgs.media.chairHintShader		= trap_R_RegisterShader( "gfx/2d/chairHint" );  // IRATA: unused

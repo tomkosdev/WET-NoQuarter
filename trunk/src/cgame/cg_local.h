@@ -1379,7 +1379,7 @@ typedef struct {
 	qhandle_t	doorHintShader;
 	qhandle_t	doorRotateHintShader;
 	qhandle_t	doorLockHintShader;
-	// qhandle_t	doorRotateLockHintShader; // irata: see doorLockHintShader
+	qhandle_t	doorRotateLockHintShader; // irata: see doorLockHintShader // TomekKromek: huh?
 	qhandle_t	mg42HintShader;
 	qhandle_t	breakableHintShader;
 	// qhandle_t	chairHintShader; // IRATA: unused

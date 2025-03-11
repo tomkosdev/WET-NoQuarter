@@ -16,7 +16,8 @@
  */
 //#include "../game/q_shared.h"
 // #include "qcommon.h"
-#include "cg_local.h"
+#include "cg_local.h" // TomekKromek: second md5.c?
+
 
 typedef struct MD5Context
 {
@@ -48,6 +49,8 @@ static void byteReverse(unsigned char *buf, unsigned longs) {
  * Start MD5 accumulation.  Set bit count to 0 and buffer to mysterious
  * initialization constants.
  * IRATA: unused
+ 
+
 static void MD5Init(struct MD5Context *ctx) {
 	ctx->buf[0] = 0x67452301;
 	ctx->buf[1] = 0xefcdab89;
@@ -57,7 +60,7 @@ static void MD5Init(struct MD5Context *ctx) {
 	ctx->bits[0] = 0;
 	ctx->bits[1] = 0;
 }
- */
+*/
 
 /* The four core functions - F1 is optimized somewhat */
 
@@ -309,7 +312,7 @@ char *CG_MD5File(const char *fn, int length, const char *prefix, int prefix_len)
 	return final;
 }
 */
-void MD5InitSeed(MD5_CTX *mdContext, unsigned long pseudoRandomNumber) {
+static void MD5InitSeed(MD5_CTX *mdContext, unsigned long pseudoRandomNumber) {
 	mdContext->bits[0] = mdContext->bits[1] = (uint32_t)0;
 	mdContext->buf[0] = (uint32_t)0x67452301 + pseudoRandomNumber * 11;
 	mdContext->buf[1] = (uint32_t)0xefcdab89 + pseudoRandomNumber * 71;
@@ -322,7 +325,7 @@ static char *CalculateMD5ForSeed(const char *key, int seed) {
 	MD5_CTX           ctx;
 	int               i;
 	static char       hash[PB_GUID_LENGTH+1];
-	static const char hex[17] = "0123456789abcdef\0";
+	static const char hex[19] = "0123456789abcdef\0"; // TomekKromek: Was hex[17] = "0123456789abcdef\0" before
 	unsigned char     digest[16];
 
 	MD5InitSeed(&ctx, seed);

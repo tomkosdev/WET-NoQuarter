@@ -87,7 +87,7 @@ int xor_encrypt(struct xor128_state* state, const unsigned char* data, int dataL
 	int   p          = 0;
 	int   bufferP    = 0;
 
-	char* xorData    = malloc(dataLength + 5);
+	char* xorData    = (char*)malloc(dataLength + 5);
 	int   xorKey     = 0;
 	char* xorKeyData = 0;
 	int   xorKeyP    = 4;

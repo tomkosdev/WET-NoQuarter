@@ -15,7 +15,7 @@ bg_playerclass_t bg_allies_playerclasses[NUM_PLAYER_CLASSES] =
 		PC_SOLDIER,
 		"characters/temperate/allied/soldier.char",
 		"ui/assets/mp_gun_blue.tga",
-		"ui/assets/mp_arrow_blue.tga",
+		"ui/assets/mp_arrow_blue.tga",	
 		{
 			WP_BAR,					// jP - modified - allied soldiers get BAR instead of Thompson
 			WP_MOBILE_BROWNING,		// jP - modified - allied soldiers get Browning instead of MG42

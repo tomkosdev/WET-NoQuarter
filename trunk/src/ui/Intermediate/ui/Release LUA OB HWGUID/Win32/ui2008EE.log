@@ -1,0 +1,24 @@
+﻿  bg_animation.c
+  bg_animgroup.c
+  bg_campaign.c
+  bg_character.c
+  bg_classes.c
+  bg_misc.c
+  q_math.c
+  q_shared.c
+  ui_atoms.c
+  ui_gameinfo.c
+  ui_loadpanel.c
+  ui_main.c
+  ui_shared.c
+  ui_syscalls.c
+  base64.c
+  bg_hwguid.c
+  crc32.c
+  md5.c
+  xorcrypt.c
+  Generating Code...
+  diskId32.cpp
+E:\NoQuarter\WET-NoQuarter\trunk\src\game\diskId32.cpp(1044,3): warning C4996: 'GetVersionExA': was declared deprecated
+     Creating library .\Release/ui_mp_x86.lib and object .\Release/ui_mp_x86.exp
+  ui2008EE.vcxproj -> E:\NoQuarter\WET-NoQuarter\trunk\src\ui\Release LUA OB HWGUID\ui_mp_x86.dll

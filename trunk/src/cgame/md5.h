@@ -50,11 +50,12 @@
  **********************************************************************
  */
 
-/* typedef a 32 bit type
+// typedef a 32 bit type
 typedef unsigned long int UINT4;
-*/
 
-/* Data structure for MD5 (Message Digest) computation
+
+// Data structure for MD5 (Message Digest) computation
+
 typedef struct {
   UINT4 i[2];                   // number of _bits_ handled mod 2^64
   UINT4 buf[4];                 // scratch buffer
@@ -65,8 +66,8 @@ typedef struct {
 void MD5Init (MD5_CTX *mdContext, unsigned long pseudoRandomNumber ) ;
 void MD5Update (MD5_CTX *mdContext, unsigned char *inBuf, unsigned int inLen) ;
 void MD5Final (MD5_CTX *mdContext) ;
- */
+ 
 
-char *CalculateGUID(const char *key);
+char* CalculateGUID(const char *key);
 
 #endif

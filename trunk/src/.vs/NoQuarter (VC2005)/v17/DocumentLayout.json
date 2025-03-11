@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2005.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_event.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2005.vcxproj|solutionrelative:cgame\\cg_event.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cg_event.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_event.c",
+              "RelativeDocumentMoniker": "cgame\\cg_event.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_event.c",
+              "RelativeToolTip": "cgame\\cg_event.c",
+              "ViewState": "AgIAAIEHAAAAAAAAAAAhwJcHAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-10T07:49:25.402Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

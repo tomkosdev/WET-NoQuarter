@@ -796,7 +796,7 @@ void AxisToAngles( /*const*/ vec3_t axis[3], vec3_t angles );
 float VectorDistance(vec3_t v1, vec3_t v2);
 float VectorDistanceSquared(vec3_t v1, vec3_t v2);
 #ifdef _MSC_VER
-int rint (double x);
+//int rint (double x);
 #endif
 
 void AxisClear( vec3_t axis[3] );

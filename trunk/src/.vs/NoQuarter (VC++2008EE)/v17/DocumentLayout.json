@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_newDraw.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_misc.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_items.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_items.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +35,68 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "cg_newDraw.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c",
-              "RelativeDocumentMoniker": "cgame\\cg_newDraw.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_newDraw.c",
-              "RelativeToolTip": "cgame\\cg_newDraw.c",
-              "ViewState": "AgIAAFoBAAAAAAAAAAAEwGYBAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-11T18:39:26.984Z",
+              "Title": "bg_public.h",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
+              "RelativeDocumentMoniker": "game\\bg_public.h",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
+              "RelativeToolTip": "game\\bg_public.h",
+              "ViewState": "AgIAAHMJAAAAAAAAAAAEwNAJAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-12T17:23:31.565Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "g_active.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
+              "RelativeDocumentMoniker": "game\\g_active.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
+              "RelativeToolTip": "game\\g_active.c",
+              "ViewState": "AgIAAEUHAAAAAAAAAAAUwFoHAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T08:37:57.299Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "g_main.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
+              "RelativeDocumentMoniker": "game\\g_main.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
+              "RelativeToolTip": "game\\g_main.c",
+              "ViewState": "AgIAADIHAAAAAAAAAAAEwE4HAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T13:39:04.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "bg_misc.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c",
+              "RelativeDocumentMoniker": "game\\bg_misc.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_misc.c",
+              "RelativeToolTip": "game\\bg_misc.c",
+              "ViewState": "AgIAAE4KAAAAAAAAAAAEwGIKAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T10:31:04.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "g_items.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_items.c",
+              "RelativeDocumentMoniker": "game\\g_items.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_items.c",
+              "RelativeToolTip": "game\\g_items.c",
+              "ViewState": "AgIAAFwDAAAAAAAAAAAEwHgDAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-13T10:22:50.97Z",
               "EditorCaption": ""
             }
           ]

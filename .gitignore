@@ -1,1 +1,4 @@
 trunk/src/.vs/NoQuarter (VC++2008EE)/FileContentIndex/040d4c62-2ed9-4652-8764-9dce28947581.vsidx
+*.obj
+*.dll
+trunk/src/.vs/*

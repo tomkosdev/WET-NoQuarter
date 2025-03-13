@@ -226,7 +226,7 @@ int reloadableWeapons[] =
 // [15] = isFastSwitch	-	is a fast-switch weapon
 // [16] = isHeavy		-	is a heavy weapon
 //
-weapontable_t WeaponTable[WP_NUM_WEAPONS] =
+weapontable_t WeaponTable[WP_NUM_WEAPONS] = // TomekKromek
 {
 	//	MAX		USES	MAX		START	START	SKILL	RELOAD	FIRE			NEXT	HEAT,	COOL,	MOD,						CLIP	AMMO	AUTO	FAST	HEAVY	...
 	//	AMMO	AMT.	CLIP	AMMO	CLIP	CLIP	TIME	DELAY			SHOT												INDEX	INDEX	RELOAD	SWITCH

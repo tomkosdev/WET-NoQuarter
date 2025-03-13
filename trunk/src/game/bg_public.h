@@ -743,7 +743,7 @@ typedef enum {
 #define	NO_AIRSTRIKE	1
 #define	NO_ARTY	2
 
-typedef enum weapon_s
+typedef enum weapon_s // TomekKromek
 {
 	WP_NONE,				//  0 - nothing, sometimes kick reference as this
 	WP_KNIFE,				//  1 - axis knife
@@ -2484,14 +2484,34 @@ void PM_TraceAll( trace_t *trace, vec3_t start, vec3_t end );
 #define WARMODE_SMOKE			0x0400	// 1024		- enable smoke grenades
 #define WARMODE_BINOCS			0x0800	// 2048		- enable binoculars
 #define WARMODE_PLIERS			0x1000	// 4096		- enable pliers + dynamite
+//13
+// TomekKromek
 
+#define WARMODE_LANDMINE		0x00002000	// 8192			- enable landmines
+#define WARMODE_SATCHEL			0x00004000	// 16384		- enable satchels
+#define WARMODE_MORTAR			0x00008000	// 32768		- enable mortars
+#define WARMODE_ADRENALINE		0x00010000	// 65536		- enable adrenaline
+#define WARMODE_HEALTH			0x00020000	// 131072		- enable health
+#define WARMODE_AMMO			0x00040000	// 262144		- enable ammo
+//19
+#define WARMODE_VENOM			0x00080000	// 524288		- enable venoms
+#define WARMODE_SMG				0x00100000	// 1048576		- enable SMGs
+#define WARMODE_PISTOL			0x00200000	// 2097152		- enable pistols
+#define WARMODE_SILENCED_PISTOL	0x00400000	// 4194304		- enable pistols silencers
+#define WARMODE_AKIMBO			0x00800000	// 8388608		- enable akimbo
+#define WARMODE_AKIMBO_SILENCED	0x01000000	// 16777216		- enable akimbo silencers
+#define WARMODE_MEDIC_SYRINGE	0x02000000	// 33554432		- enable medic syringe
+//26
+#define WARMODE_MG				0x04000000	// 67108864		- enable MGs
+#define WARMODE_STEN			0x08000000	// 134217728	- enable stens
+#define WARMODE_BAR				0x10000000	// 268435456	- enable BARs
+#define WARMODE_STG44			0x20000000	// 536870912	- enable STG44s
+//30
+#define WARMODE_FG42			0x40000000	// 1073741824	- enable FG42s
+//#define WARMODE_JOHNSON			0x80000000	// 2147483648	- enable JOHNSON
 
+#define WARMODE_NUM_MODES 31
 
-
-
-
-
-#define WARMODE_NUM_MODES		13
 
 // core: bitflags for g_unlockWeapons (per class)..
 #define UNLOCK_WEAPONS_NONE			0
@@ -3260,4 +3280,3 @@ weapon_restriction_t weapon_restrictions[WP_NUM_WEAPONS];
 
 
 #endif // __BG_PUBLIC_H__
-

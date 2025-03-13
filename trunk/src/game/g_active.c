@@ -1448,42 +1448,42 @@ void ClientThink_checkWeapons( gentity_t *ent )
 		ent->client->ps.stats[STAT_KEYS] &= ~(1 << INV_BINOCS);
 
 		// spectators get nothing (except when they are bot)..
-		if ( ent->client->sess.sessionTeam == TEAM_AXIS || ent->client->sess.sessionTeam == TEAM_ALLIES
-			|| (ent->r.svFlags & SVF_BOT) )
+		if (ent->client->sess.sessionTeam == TEAM_AXIS || ent->client->sess.sessionTeam == TEAM_ALLIES
+			|| (ent->r.svFlags & SVF_BOT))
 		{
 
 			// smoke grenades
-			if ( nq_War.integer & WARMODE_SMOKE ) {
+			if (nq_War.integer & WARMODE_SMOKE) {
 				weapon = WP_SMOKE_BOMB;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// binoculars
-			if ( nq_War.integer & WARMODE_BINOCS ) {
+			if (nq_War.integer & WARMODE_BINOCS) {
 				weapon = WP_BINOCULARS;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1;
 				ent->client->ps.ammoclip[weapon] = 1;
-				ent->client->ps.stats[STAT_KEYS] |= ( 1 << INV_BINOCS );
+				ent->client->ps.stats[STAT_KEYS] |= (1 << INV_BINOCS);
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// pliers
-			if ( nq_War.integer & WARMODE_PLIERS ) {
+			if (nq_War.integer & WARMODE_PLIERS) {
 				weapon = WP_PLIERS;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1;
 				ent->client->ps.ammoclip[weapon] = 1;
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 				// core: also give a dynamite, so pliers make sense.. :-)
 				weapon = WP_DYNAMITE;
@@ -1492,88 +1492,88 @@ void ClientThink_checkWeapons( gentity_t *ent )
 				ent->client->ps.ammoclip[weapon] = 1;
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// poison
-			if ( nq_War.integer & WARMODE_POISON ) {
+			if (nq_War.integer & WARMODE_POISON) {
 				weapon = WP_POISON_SYRINGE;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// knives
-			if ( nq_War.integer & WARMODE_KNIFE ) {
+			if (nq_War.integer & WARMODE_KNIFE) {
 				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_KNIFE : WP_KNIFE_KABAR;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
 				// cs: this lets bots know they have recieved the weapon
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// grenades
-			if ( nq_War.integer & WARMODE_NADE ) {
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_GRENADE_LAUNCHER : WP_GRENADE_PINEAPPLE;
+			if (nq_War.integer & WARMODE_NADE) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_GRENADE_LAUNCHER : WP_GRENADE_PINEAPPLE;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// flamethrowers
-			if ( nq_War.integer & WARMODE_FLAMER ) {
+			if (nq_War.integer & WARMODE_FLAMER) {
 				weapon = WP_FLAMETHROWER;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 9999;
 				ent->client->ps.ammoclip[weapon] = 9999;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// panzers
-			if ( nq_War.integer & WARMODE_PANZER ) {
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_PANZERFAUST : WP_BAZOOKA;
+			if (nq_War.integer & WARMODE_PANZER) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_PANZERFAUST : WP_BAZOOKA;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// sniperguns
-			if ( nq_War.integer & WARMODE_SNIPER ) {
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_K43_SCOPE : WP_GARAND_SCOPE;
+			if (nq_War.integer & WARMODE_SNIPER) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_K43_SCOPE : WP_GARAND_SCOPE;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 10;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_K43 : WP_GARAND;
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_K43 : WP_GARAND;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 10;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// rifles
-			if ( nq_War.integer & WARMODE_RIFLE ) {
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_KAR98 : WP_CARBINE;
+			if (nq_War.integer & WARMODE_RIFLE) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_KAR98 : WP_CARBINE;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 10;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
-				weapon = ( ent->client->sess.sessionTeam == TEAM_AXIS )? WP_GPG40 : WP_M7;
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_GPG40 : WP_M7;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				// note: Do not give more than 1 grenade in ammoclip,
 				// because that will make the 1st-person playermodel dismount the grenade after every shot..
@@ -1581,19 +1581,332 @@ void ClientThink_checkWeapons( gentity_t *ent )
 				ent->client->ps.ammo[weapon] = 0;
 				ent->client->ps.ammoclip[weapon] = 1;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
 			// shotguns
-			if ( nq_War.integer & WARMODE_SHOTGUN ) {
+			if (nq_War.integer & WARMODE_SHOTGUN) {
 				weapon = WP_SHOTGUN;
 				COM_BitSet(ent->client->ps.weapons, weapon);
 				ent->client->ps.ammo[weapon] = 1000;
 				ent->client->ps.ammoclip[weapon] = 1000;
 #ifdef OMNIBOTS
-				Bot_Event_AddWeapon(ent-g_entities, Bot_WeaponGameToBot(weapon));
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
 #endif
 			}
+
+			// landmines
+			if (nq_War.integer & WARMODE_LANDMINE) {
+				weapon = WP_PLIERS;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1;
+				ent->client->ps.ammoclip[weapon] = 1;
+#ifdef OMNIBOTS
+				// cs: this lets bots know they have recieved the weapon
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+
+				weapon = WP_LANDMINE;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 3;
+				ent->client->ps.ammoclip[weapon] = 6;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			// satchels
+			if (nq_War.integer & WARMODE_SATCHEL) {
+				weapon = WP_SATCHEL_DET;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 0;
+				ent->client->ps.ammoclip[weapon] = 1;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+
+				weapon = WP_SATCHEL;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 0;
+				ent->client->ps.ammoclip[weapon] = 1;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+
+
+			// mortar
+			if (nq_War.integer & WARMODE_MORTAR) {
+
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MORTAR2 : WP_MORTAR;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1;
+				ent->client->ps.ammoclip[weapon] = 1000;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MORTAR2_SET : WP_MORTAR_SET;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1;
+				ent->client->ps.ammoclip[weapon] = 1;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif 
+
+			}
+
+
+
+            // health packs
+            if (nq_War.integer & WARMODE_HEALTH) {
+                weapon = WP_MEDKIT;
+                COM_BitSet(ent->client->ps.weapons, weapon);
+                ent->client->ps.ammo[weapon] = 1000;
+                ent->client->ps.ammoclip[weapon] = 1000;
+            #ifdef OMNIBOTS
+                Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+            #endif
+            }
+			
+
+			// ammo packs	
+			if (nq_War.integer & WARMODE_AMMO) {
+				weapon = WP_AMMO;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 0;
+				ent->client->ps.ammoclip[weapon] = 0;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			// adrenaline
+			if (nq_War.integer & WARMODE_ADRENALINE) {
+				weapon = WP_MEDIC_ADRENALINE;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 1000;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+			// adrenaline
+			if (nq_War.integer & WARMODE_VENOM) {
+				weapon = WP_VENOM;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 250;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+			
+
+			// smg
+			if (nq_War.integer & WARMODE_SMG) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MP40 : WP_THOMPSON;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 30;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			// pistol
+			if (nq_War.integer & WARMODE_PISTOL) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_LUGER : WP_COLT;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 8;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			// pistol silencer
+			if (nq_War.integer & WARMODE_SILENCED_PISTOL) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_SILENCER : WP_SILENCED_COLT;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+
+				ent->client->ps.ammo[GET_ALT_WEAPON(weapon)] = 1000;
+				ent->client->ps.ammoclip[GET_ALT_WEAPON(weapon)] = 8;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+			// akimbo
+			if (nq_War.integer & WARMODE_AKIMBO) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_AKIMBO_LUGER : WP_AKIMBO_COLT;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 8;
+				ent->client->ps.ammo[(ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_LUGER : WP_COLT] = 1000;
+				ent->client->ps.ammoclip[(ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_LUGER : WP_COLT] = 8;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			
+
+			// akimbo silencer
+			if (nq_War.integer & WARMODE_AKIMBO_SILENCED) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_AKIMBO_SILENCEDLUGER : WP_AKIMBO_SILENCEDCOLT;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+
+				ent->client->ps.ammoclip[(ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_LUGER : WP_COLT] = 8;
+				ent->client->ps.ammoclip[(ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_AKIMBO_LUGER : WP_AKIMBO_COLT] = 8;
+				ent->client->ps.ammo[(ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_LUGER : WP_COLT] = 1000;
+
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			// medic syringe	
+			if (nq_War.integer & WARMODE_MEDIC_SYRINGE) {
+				weapon = WP_MEDIC_SYRINGE;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1;
+				ent->client->ps.ammoclip[weapon] = 15;
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+
+			// MGs	
+			if (nq_War.integer & WARMODE_MG) {
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MOBILE_MG42 : WP_MOBILE_BROWNING;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+				ent->client->ps.ammo[weapon] = 1000;
+				ent->client->ps.ammoclip[weapon] = 150;
+
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+				weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MOBILE_MG42_SET : WP_MOBILE_BROWNING_SET;
+				COM_BitSet(ent->client->ps.weapons, weapon);
+
+#ifdef OMNIBOTS
+				Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+			}
+
+
+			
+				// sten	
+				if (nq_War.integer & WARMODE_STEN) {
+					weapon = (ent->client->sess.sessionTeam == TEAM_AXIS) ? WP_MP34 : WP_STEN;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+					ent->client->ps.ammo[weapon] = 1000;
+					ent->client->ps.ammoclip[weapon] = 32;
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+				}
+
+
+				// bar	
+				if (nq_War.integer & WARMODE_BAR) {
+					weapon = WP_BAR;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+					ent->client->ps.ammo[weapon] = 1000;
+					ent->client->ps.ammoclip[weapon] = 30;
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+					weapon = WP_BAR_SET;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+				}
+
+
+				// STG44	
+				if (nq_War.integer & WARMODE_STG44) {
+					weapon = WP_STG44;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+					ent->client->ps.ammo[weapon] = 1000;
+					ent->client->ps.ammoclip[weapon] = 30;
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+				}
+
+
+				// FG42	
+				if (nq_War.integer & WARMODE_FG42) {
+					weapon = WP_FG42;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+					ent->client->ps.ammo[weapon] = 1000;
+					ent->client->ps.ammoclip[weapon] = 20;
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+					weapon = WP_FG42SCOPE;
+					COM_BitSet(ent->client->ps.weapons, weapon);
+
+#ifdef OMNIBOTS
+					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+#endif
+				}
+
+
+
+				// TomekKromek: not enough space in int32 for all the weapons! Pistol and silenced pistol are the same weapon, so might be combined to save space.
+				// 
+//				// JOHNSON	
+//				if (nq_War.integer & WARMODE_JOHNSON) {
+//					weapon = WP_JOHNSON;
+//					COM_BitSet(ent->client->ps.weapons, weapon);
+//					ent->client->ps.ammo[weapon] = 1000;
+//					ent->client->ps.ammoclip[weapon] = 20;
+//
+//#ifdef OMNIBOTS
+//					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+//#endif
+//
+//					weapon = WP_JOHNSON_SCOPE;
+//					COM_BitSet(ent->client->ps.weapons, weapon);
+//
+//#ifdef OMNIBOTS
+//					Bot_Event_AddWeapon(ent - g_entities, Bot_WeaponGameToBot(weapon));
+//#endif
+//				}
+
+
+
+
+
+
+
+
+
+
+
+
 
 			if ( weapon != WP_NONE ) {
 				ent->client->sess.latchPlayerWeapon = weapon;
@@ -2840,3 +3153,7 @@ void ClientEndFrame( gentity_t *ent )
 	// We want this to track the server's viewpoint
 	G_StoreClientPosition( ent );
 }
+
+
+
+

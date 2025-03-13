@@ -1866,6 +1866,7 @@ const char szWarmodeNames[WARMODE_NUM_MODES][3][128] =
 	{"War Smoke",				"^2Enabled",	"^1Disabled"	},
 	{"War Binocs",				"^2Enabled",	"^1Disabled"	},
 	{"War Dynamite",			"^2Enabled",	"^1Disabled"	},
+	{"War Landmine",			"^2Enabled",	"^1Disabled"	},
 };
 
 extern void GibEntity( gentity_t *self, int killer );

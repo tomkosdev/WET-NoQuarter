@@ -1796,6 +1796,7 @@ const char szModeNames[JP_INSANITY_NUM_MODES][3][128] =
 	{"Killer Camera",			"^2On",			"^1Off"			},
 	{"Riflenade Camera",		"^2On",			"^1Off"			},
 	{"Syringe Gibs",			"^2On",			"^1Off"			},
+	{"No fall damage",			"^2On",			"^1Off"			},
 };
 
 void jP_InsanityCheck(void) {

@@ -2465,7 +2465,8 @@ void PM_TraceAll( trace_t *trace, vec3_t start, vec3_t end );
 #define JP_INSANITY_KILLERCAM		0x1000	// 4096		- killer cam (in seperate window like mortarcam)
 #define JP_INSANITY_RIFLENADECAM	0x2000	// 8192		- riflenade cam
 #define JP_INSANITY_SYRINGEGIBS		0x4000	// 16384	- syringe gibs instantly
-#define JP_INSANITY_NUM_MODES		15
+#define JP_INSANITY_NOFALLDAMAGE	0x8000	// 32768	- no selfkill
+#define JP_INSANITY_NUM_MODES		16
 
 
 #define DYNA_KICKDISTANCE 80			// kick distance for dynamites (jp_insanity & JP_INSANITY_DYNAKICK)

@@ -878,7 +878,7 @@ void ClientIntermissionThink( gclient_t *client )
 	client->wbuttons = client->pers.cmd.wbuttons;
 }
 
-
+// TomekKromek : NoFallDamage
 void G_FallDamage(gentity_t *ent, int event)
 {
 	int damage = 0;
@@ -905,43 +905,47 @@ void G_FallDamage(gentity_t *ent, int event)
 		victim = &level.gentities[tr.entityNum];
 	}
 
-	switch(event) {
-		case EV_FALL_NDIE:
-			damage = 500;
-			break;
-		case EV_FALL_DMG_50:
-			damage = 50;
-			kb_time = SECONDS_1;
-			break;
-		case EV_FALL_DMG_25:
-			damage = 25;
-			kb_time = SECOND_HALF;
-			break;
-		case EV_FALL_DMG_15:
-			damage = 15;
-			kb_time = 250;
-			break;
-		case EV_FALL_DMG_10:
-			damage = 10;
-			kb_time = 250;
-			break;
-		case EV_FALL_SHORT:
-			if( victim && victim->client ) {
-				qboolean onSameTeam = OnSameTeam(ent,victim);
 
-				if ( (onSameTeam && (g_goombaFlags.integer & GBF_NO_HOP_TEAMDAMAGE)) ||
-				(!onSameTeam && (g_goombaFlags.integer & GBF_NO_HOP_ENEMYDAMAGE)) ) {
-					return;
+	// TomekKromek :  check if nofalldamage is enabled
+	if (!(jp_insanity.integer & JP_INSANITY_NOFALLDAMAGE)) {
+		switch(event) {
+			case EV_FALL_NDIE:
+				damage = 500;
+				break;
+			case EV_FALL_DMG_50:
+				damage = 50;
+				kb_time = SECONDS_1;
+				break;
+			case EV_FALL_DMG_25:
+				damage = 25;
+				kb_time = SECOND_HALF;
+				break;
+			case EV_FALL_DMG_15:
+				damage = 15;
+				kb_time = 250;
+				break;
+			case EV_FALL_DMG_10:
+				damage = 10;
+				kb_time = 250;
+				break;
+			case EV_FALL_SHORT:
+				if( victim && victim->client ) {
+					qboolean onSameTeam = OnSameTeam(ent,victim);
+
+					if ( (onSameTeam && (g_goombaFlags.integer & GBF_NO_HOP_TEAMDAMAGE)) ||
+					(!onSameTeam && (g_goombaFlags.integer & GBF_NO_HOP_ENEMYDAMAGE)) ) {
+						return;
+					}
 				}
-			}
-			break;
-		default:
-			return;
+				break;
+			default:
+				return;
+		}
 	}
 
-	if((!g_goomba.integer || !victim || !victim->client || !victim->takedamage)) {
-		if(damage) {
-			if(kb_time) {
+	if ((!g_goomba.integer || !victim || !victim->client || !victim->takedamage)) {
+		if (damage) {
+			if (kb_time) {
 				ent->client->ps.pm_time = kb_time;
 				ent->client->ps.pm_flags |= PMF_TIME_KNOCKBACK;
 			}

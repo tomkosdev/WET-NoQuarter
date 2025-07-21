@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_debriefing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{68A804FC-00C3-44E2-A479-3DB3D20F943D}|cgame\\cgame2008EE.vcxproj|solutionrelative:cgame\\cg_debriefing.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_active.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4F8332D7-5687-4875-813A-A1B7AA479C2D}|game\\game2008EE.vcxproj|solutionrelative:game\\bg_public.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,13 +26,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "bg_public.h",
               "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
               "RelativeDocumentMoniker": "game\\bg_public.h",
               "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\bg_public.h",
               "RelativeToolTip": "game\\bg_public.h",
-              "ViewState": "AgIAAIkJAAAAAAAAAAAEwKQJAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAOQKAAAAAAAAAAAEwPgKAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-12T17:23:31.565Z",
               "IsPinned": true,
@@ -44,13 +40,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "g_active.c",
               "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
               "RelativeDocumentMoniker": "game\\g_active.c",
               "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_active.c",
               "RelativeToolTip": "game\\g_active.c",
-              "ViewState": "AgIAAH0DAAAAAAAAAAAUwIwDAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAACsCAAAAAAAAAAAAADoCAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-13T08:37:57.299Z",
               "IsPinned": true,
@@ -59,27 +55,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "g_main.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
-              "RelativeDocumentMoniker": "game\\g_main.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_main.c",
-              "RelativeToolTip": "game\\g_main.c",
-              "ViewState": "AgIAAOEGAAAAAAAAAAAEwAYHAAARAAAAAAAAAA==",
+              "Title": "cg_debriefing.c",
+              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_debriefing.c",
+              "RelativeDocumentMoniker": "cgame\\cg_debriefing.c",
+              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\cgame\\cg_debriefing.c",
+              "RelativeToolTip": "cgame\\cg_debriefing.c",
+              "ViewState": "AgIAACQLAAAAAAAAAAAEwDgLAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-13T15:00:39.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "g_combat.c",
-              "DocumentMoniker": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
-              "RelativeDocumentMoniker": "game\\g_combat.c",
-              "ToolTip": "E:\\NoQuarter\\WET-NoQuarter\\trunk\\src\\game\\g_combat.c",
-              "RelativeToolTip": "game\\g_combat.c",
-              "ViewState": "AgIAAC4HAAAAAAAAAAAEwEIHAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-13T14:50:34.457Z",
+              "WhenOpened": "2025-03-13T19:40:05.936Z",
               "EditorCaption": ""
             }
           ]

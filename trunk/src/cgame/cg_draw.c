@@ -4392,7 +4392,7 @@ static int CG_PlayerAmmoValue( int *ammo, int *clips, int *akimboammo ) {
 			return weap;
 		case WP_KNIFE:
 		case WP_KNIFE_KABAR:
-			if ( !(cgs.clientinfo[cg.snap->ps.clientNum].skillBits[SK_LIGHT_WEAPONS] & (1<<8)) )
+			if ( !((cgs.clientinfo[cg.snap->ps.clientNum].skillBits[SK_LIGHT_WEAPONS] & (1<<8)) || (cg_insanity.integer & JP_INSANITY_THROWING_KNIVES))) // tomekkromek 
 				return weap;
 		case WP_LANDMINE:
 		case WP_MEDIC_SYRINGE:

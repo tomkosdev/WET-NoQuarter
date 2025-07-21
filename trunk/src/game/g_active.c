@@ -943,6 +943,7 @@ void G_FallDamage(gentity_t *ent, int event)
 		}
 	}
 
+
 	if ((!g_goomba.integer || !victim || !victim->client || !victim->takedamage)) {
 		if (damage) {
 			if (kb_time) {
@@ -1346,7 +1347,7 @@ void G_SetIdentifyClient( gentity_t *ent )
 				break;
 			case WP_KNIFE:
 			case WP_KNIFE_KABAR:
-				if ( !(other->client->sess.skillBits[SK_LIGHT_WEAPONS] & (1<<8)) )
+				if ( !((other->client->sess.skillBits[SK_LIGHT_WEAPONS] & (1<<8)) || (jp_insanity.integer & JP_INSANITY_THROWING_KNIVES) ) ) // tomekkromek: JP_INSANITY_THROWING_KNIVES added so we can hold BUTTON2
 					skipAmmo = qtrue;
 				else
 					clipOnly = qtrue;

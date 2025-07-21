@@ -1682,7 +1682,7 @@ typedef enum {
 } hintType_t;
 
 void	BG_EvaluateTrajectory( const trajectory_t *tr, int atTime, vec3_t result, qboolean isAngle, int splinePath );
-void BG_EvaluateTrajectoryDelta( const trajectory_t *tr, int atTime, vec3_t result, qboolean isAngle, int splineData );
+void	BG_EvaluateTrajectoryDelta( const trajectory_t *tr, int atTime, vec3_t result, qboolean isAngle, int splineData );
 void	BG_GetMarkDir( const vec3_t dir, const vec3_t normal, vec3_t out );
 
 void	BG_AddPredictableEventToPlayerstate( int newEvent, int eventParm, playerState_t *ps );
@@ -2465,26 +2465,28 @@ void PM_TraceAll( trace_t *trace, vec3_t start, vec3_t end );
 #define JP_INSANITY_KILLERCAM		0x1000	// 4096		- killer cam (in seperate window like mortarcam)
 #define JP_INSANITY_RIFLENADECAM	0x2000	// 8192		- riflenade cam
 #define JP_INSANITY_SYRINGEGIBS		0x4000	// 16384	- syringe gibs instantly
-#define JP_INSANITY_NOFALLDAMAGE	0x8000	// 32768	- no selfkill
-#define JP_INSANITY_NUM_MODES		16
+#define JP_INSANITY_NOFALLDAMAGE	0x8000	// 32768	- no fall damage
+#define JP_INSANITY_THROWING_KNIVES	0x00010000	// 65536	- no fall damage
+#define JP_INSANITY_KICKGIBS		0x00020000	// 131072	- no fall damage
+#define JP_INSANITY_NUM_MODES		18
 
 
 #define DYNA_KICKDISTANCE 80			// kick distance for dynamites (jp_insanity & JP_INSANITY_DYNAKICK)
 
 // core: bitmask for nq_War
-#define WARMODE_ENABLE			0x0001	// 1		- war mode: spawn with a few possible weapons, but plenty ammo..
-#define WARMODE_RESERVED		0x0002	// 2		- reserved, not in use..
-#define WARMODE_KNIFE			0x0004	// 4		- enable knives
-#define WARMODE_PANZER			0x0008	// 8		- enable panzers
-#define WARMODE_SNIPER			0x0010	// 16		- enable sniperguns
-#define WARMODE_NADE			0x0020	// 32		- enable grenades
-#define WARMODE_RIFLE			0x0040	// 64		- enable rifles
-#define WARMODE_FLAMER			0x0080	// 128		- enable flamethrowers
-#define WARMODE_SHOTGUN			0x0100	// 256		- enable shotguns
-#define WARMODE_POISON			0x0200	// 512		- enable poison
-#define WARMODE_SMOKE			0x0400	// 1024		- enable smoke grenades
-#define WARMODE_BINOCS			0x0800	// 2048		- enable binoculars
-#define WARMODE_PLIERS			0x1000	// 4096		- enable pliers + dynamite
+#define WARMODE_ENABLE			0x0001	// 1				- war mode: spawn with a few possible weapons, but plenty ammo..
+#define WARMODE_RESERVED		0x0002	// 2				- reserved, not in use..
+#define WARMODE_KNIFE			0x0004	// 4				- enable knives
+#define WARMODE_PANZER			0x0008	// 8				- enable panzers
+#define WARMODE_SNIPER			0x0010	// 16				- enable sniperguns
+#define WARMODE_NADE			0x0020	// 32				- enable grenades
+#define WARMODE_RIFLE			0x0040	// 64				- enable rifles
+#define WARMODE_FLAMER			0x0080	// 128				- enable flamethrowers
+#define WARMODE_SHOTGUN			0x0100	// 256				- enable shotguns
+#define WARMODE_POISON			0x0200	// 512				- enable poison
+#define WARMODE_SMOKE			0x0400	// 1024				- enable smoke grenades
+#define WARMODE_BINOCS			0x0800	// 2048				- enable binoculars
+#define WARMODE_PLIERS			0x1000	// 4096				- enable pliers + dynamite
 //13
 // TomekKromek
 
@@ -2509,7 +2511,7 @@ void PM_TraceAll( trace_t *trace, vec3_t start, vec3_t end );
 #define WARMODE_STG44			0x20000000	// 536870912	- enable STG44s
 //30
 #define WARMODE_FG42			0x40000000	// 1073741824	- enable FG42s
-//#define WARMODE_JOHNSON			0x80000000	// 2147483648	- enable JOHNSON
+//#define WARMODE_JOHNSON		0x80000000	// 2147483648	- enable JOHNSON
 
 #define WARMODE_NUM_MODES 31
 

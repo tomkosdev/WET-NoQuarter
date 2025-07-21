@@ -109,7 +109,11 @@ static void G_UpdateKillingSpree(gentity_t *ent, gentity_t *att, qboolean death)
 			}
 			BG_AdjustBounty(&att->client->ps, bounty);
 			
-			// award 3 battle sense xp per bounty point
+			// 
+			// 
+			// 
+			// 
+			// 3 battle sense xp per bounty point
 			G_AddSkillPoints( att, SK_BATTLE_SENSE, bounty * 3.f);
 		}
 	}
@@ -1862,6 +1866,16 @@ void G_Damage(gentity_t *targ,	gentity_t	*inflictor, gentity_t	*attacker,	vec3_t
 			// correct the damage stats. we only want the targ->health to be added to the damage_given, not the extra gib_health too..
 			attacker->client->sess.damage_given -= -GIB_HEALTH;
 		}
+
+		// tomekkromek : instagib foot
+		if (mod == MOD_KICKED && (jp_insanity.integer & JP_INSANITY_KICKGIBS) && playerAttackedByPlayer && !onSameTeam) {
+			// correct "take" since it could be altered already because of damage-falloff etc.
+			take = -GIB_HEALTH + targ->health;
+			// correct the damage stats. we only want the targ->health to be added to the damage_given, not the extra gib_health too..
+			attacker->client->sess.damage_given -= -GIB_HEALTH;
+		}
+
+
 
 		// core: headshot mode with an immediate kill?..
 		if ( headShot && (g_headshot.integer == 2 || g_headshot.integer == 3) ) {

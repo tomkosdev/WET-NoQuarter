@@ -3519,7 +3519,8 @@ qboolean PM_AltFire ( void )
 {
 	if ( pm->cmd.wbuttons & WBUTTON_ATTACK2 ) {
 		if ( pm->ps->weapon == WP_KNIFE ||  pm->ps->weapon == WP_KNIFE_KABAR ) {
-			if ( pm->skillBits[SK_LIGHT_WEAPONS] & (1<<8) )
+			// JP_INSANITY_THROWING_KNIVES - tomekkromek -- || (PM_INSANITY & JP_INSANITY_THROWING_KNIVES)
+			if ( pm->skillBits[SK_LIGHT_WEAPONS] & (1<<8) || (PM_INSANITY & JP_INSANITY_THROWING_KNIVES))
 				return qtrue;
 		}
 	}
@@ -4354,7 +4355,8 @@ static void PM_Weapon( void ) {
 		case WP_KNIFE_KABAR:
 			if(!delayedFire) {
 				// throw
-				if ( pm->cmd.wbuttons & WBUTTON_ATTACK2 && pm->skillBits[SK_LIGHT_WEAPONS] & (1<<8) && PM_WeaponAmmoAvailable(pm->ps->weapon) ) {
+				// tomekkromek : throwing knives for everyone
+				if ( pm->cmd.wbuttons & WBUTTON_ATTACK2 && (pm->skillBits[SK_LIGHT_WEAPONS] & (1<<8) || (PM_INSANITY & JP_INSANITY_THROWING_KNIVES)) && PM_WeaponAmmoAvailable(pm->ps->weapon) ) {
 					if( pm->ps->eFlags & EF_PRONE )
 						 BG_AnimScriptEvent( pm->ps, pm->character->animModelInfo, ANIM_ET_FIREWEAPON3PRONE, qfalse, qtrue );
 					else

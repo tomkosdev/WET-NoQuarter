@@ -7,4 +7,8 @@ trunk/src/.vs/*
 *.ipch
 *.json
 *.bin
+trunk/src/game/Release/
+trunk/src/cgame/Release/
+trunk/src/ui/Release/
+trunk/src/game/Intermediate/
 
